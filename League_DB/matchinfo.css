@@ -1,0 +1,149 @@
+body {
+	background:"http://i.imgur.com/N2UQfZf.jpg";
+	background-color: #b7d1c4
+}
+
+.tipsOuter{
+	position: relative;
+    margin: 0 auto;
+	margin-top: 100px;
+	width: 80%;
+}
+.tipsInner{
+	width: 50%;
+    margin: 0 auto;
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background:#009900;
+}
+
+.tipsInner p {
+	text-align: center;
+	color: #ffffff;
+}
+
+#navbar {
+	position: fixed;
+	left:30%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -4%;
+	padding: 0px;
+	text-align: center;
+}
+
+li {
+	float:left;
+	padding:10px;
+}
+
+a:link, a:visited {
+	display: block;
+	width:120px;
+	font-weight: bold;
+	color:#ffffff;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+    background-color: #cc0323;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    border-radius: 9px 9px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+a:hover, a:active {
+    background-color: #800000;
+}
+
+
+table.center1 {
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    width: 90%;
+    background:#CA5C5C;
+
+}
+
+table.center1copy {
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    width: 90%;
+    background:#CA5C5C;
+
+}
+
+table.center2 {
+	position: relative;
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom:-30px;
+    width: 90%;
+    background:#2E5CE6;
+
+}
+table.center2copy {
+	position: relative;
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom:-20px;
+    width: 90%;
+    background:#2E5CE6;
+
+}
+	/*  Define the background color for all the ODD table columns  */
+	.center1 tbody tr:nth-child(odd){ 
+		background: #E06666;
+	}
+	/*  Define the background color for all the EVEN table columns  */
+	.center1 tbody tr:nth-child(even){
+		background: #CA5C5C;
+	}
+	/*  Define the background color for all the ODD table columns  */
+	.center2 tbody tr:nth-child(odd){ 
+		background: #4775FF;
+	}
+	/*  Define the background color for all the EVEN table columns  */
+	.center3 tbody tr:nth-child(even){
+		background: #2E5CE6;
+	}
+thead.center1 {
+	font-weight: bold;
+	background:#CA5C5C;
+}
+thead.center2 {
+	font-weight: bold;
+	background:#2E5CE6;
+}
+
+td {
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}

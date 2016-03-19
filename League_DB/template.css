@@ -1,0 +1,81 @@
+body {
+	background:"http://i.imgur.com/N2UQfZf.jpg";
+	background-color: #b7d1c4
+}
+
+
+
+#navbar {
+	position: fixed;
+	left:30%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -4%;
+	padding: 0px;
+	text-align: center;
+}
+
+#navbar li {
+	float:left;
+	padding:10px;
+}
+
+#navbar a:link, #navbar a:visited {
+	display: block;
+	width:120px;
+	font-weight: bold;
+	color:#ffffff;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+    background-color: #cc0323;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    border-radius: 9px 9px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+a:hover, a:active {
+    background-color: #800000;
+}
+
+table.center {
+	border: 2px solid #000000;
+	border-radius: 6px 6px;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:-20px;
+    width: auto;
+    background:#BFBFBF;
+    position: relative;
+
+}
+	/*  Define the background color for all the ODD table columns  */
+	.center tbody tr:nth-child(odd){ 
+		background: #A8A8A8;
+	}
+	/*  Define the background color for all the EVEN table columns  */
+	.center tbody tr:nth-child(even){
+		background: #BFBFBF;
+	}
+
+thead {
+	font-weight: bold;
+	background:#BFBFBF;
+}
+
+td {
+	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+}

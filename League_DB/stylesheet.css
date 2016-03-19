@@ -1,0 +1,27 @@
+
+
+#login {
+	margin-top:150px;
+	margin-bottom:150px;
+	margin-right:150px;
+	margin-left:450px;
+	border:3px solid  #A187BE;
+	padding:9px 35px; 
+	background:#FFF79A;
+	width:400px;
+	border-radius:20px;
+	box-shadow: 7px 7px 6px;
+    };
+
+
+
+    
+
+#wrapper {
+    text-align: center;
+}
+
+#button {
+    position: relative;
+    top: 50%;
+}
