@@ -1,4 +1,4 @@
-##League DB
+## League DB
 
 A website and database for the videogame, League of Legends.
 
